@@ -13,9 +13,9 @@ const Skills = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            My <span className="bg-gradient-to-r from-primary-dark to-deep-purple-700 bg-clip-text text-transparent">Skills</span>
+            My <span className="bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">Skills</span>
           </h2>
-          <p className="text-neutral-800 dark:text-white text-lg">Technologies and tools I work with</p>
+          <p className="text-neutral-600 dark:text-neutral-400 text-lg">Technologies and tools I work with</p>
         </div>
         
         <BentoGrid className="max-w-4xl mx-auto">

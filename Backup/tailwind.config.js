@@ -14,7 +14,6 @@ export default {
       colors: {
         primary: '#A78BFA', // purple-400
         'primary-dark': '#8B5CF6', // purple-500
-        'primary-darker': '#6D28D9', // purple-700
         'primary-light': '#C4B5FD', // purple-300
         'deep-purple': {
           900: '#1E1B4B',

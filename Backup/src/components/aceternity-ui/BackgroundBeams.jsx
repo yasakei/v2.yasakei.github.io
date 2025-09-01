@@ -99,7 +99,7 @@ const SceneUpdater = ({ meshRef, theme, color, speed, scale, noiseIntensity, rot
   const targetColor = useMemo(() => new Color(), []);
 
   useEffect(() => {
-    targetColor.set(theme === 'dark' ? color : '#F3F4F6');
+    targetColor.set(theme === 'dark' ? color : '#E5E7EB');
   }, [theme, color, targetColor]);
 
   useEffect(() => {

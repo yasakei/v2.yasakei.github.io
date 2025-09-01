@@ -13,9 +13,9 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Latest <span className="bg-gradient-to-r from-primary-dark to-deep-purple-700 bg-clip-text text-transparent">Repositories</span>
+            Latest <span className="bg-gradient-to-r from-primary to-primary-dark bg-clip-text text-transparent">Repositories</span>
           </h2>
-          <p className="text-neutral-800 dark:text-white text-lg">Explore my recent work and contributions</p>
+          <p className="text-neutral-600 dark:text-neutral-400 text-lg">Explore my recent work and contributions</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
           {repositories.map((repo, index) => (

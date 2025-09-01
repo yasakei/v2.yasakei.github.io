@@ -18,12 +18,12 @@ return (
                 <div className="text-2xl md:text-3xl font-medium text-neutral-700 dark:text-neutral-300 mb-8 h-auto">
                     <SplitText
                         text={"Developer @ YAS Studios"} 
-                        className="inline-block text-black dark:text-white"
+                        className="inline-block text-black dark:text-neutral-400"
                     />
                 </div>
             </div>
             
-            <p className="text-lg md:text-xl text-neutral-800 dark:text-white max-w-2xl mx-auto mb-12 leading-relaxed">
+            <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto mb-12 leading-relaxed">
                 I'm a developer who enjoys turning caffeine into code. I love starting new projects, 
                 learning new technologies, and occasionally giving up halfway. This is my corner of 
                 the internet to showcase my work.

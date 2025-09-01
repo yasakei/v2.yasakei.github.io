@@ -33,7 +33,8 @@ function App() {
     <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white overflow-hidden">
       <div className="fixed inset-0 bg-white dark:bg-black">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 via-purple-900/20 to-pink-900/20" />
-        {theme === 'dark' && <BackgroundBeams theme={theme} />}
+        <BackgroundBeams theme={theme} />
+        
       </div>
       
       <FloatingNav navItems={navItems} theme={theme} setTheme={setTheme} />
